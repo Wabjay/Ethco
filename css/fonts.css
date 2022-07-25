@@ -1,0 +1,183 @@
+
+.paragraph_small,
+.caption,
+.shop_text,
+.faq_text,
+.subtitle_text,
+.contact_text  {
+  font-weight: 400;
+}
+.medium,
+.subtitle,
+.label,
+.btn,
+.nav,
+.links{
+  font-weight: 500;
+}
+.title,
+.heading_medium,
+.heading_big,
+.subtitle_header,
+.side_header, 
+.faq_title {
+  font-weight: 800;
+}
+
+/* 
+.subtitle,
+.btn,
+.title,  */
+.label,
+.caption{
+  letter-spacing: 0px;
+  font-size: 12px;
+  line-height: 16px
+}
+.medium,
+.subtitle,
+.nav,
+.paragraph_small,
+.title,
+.links,
+.faq_text  {
+  letter-spacing: 0px;
+  font-size: 14px;
+  line-height: 18px
+}
+.shop_text, .faq_title, .subtitle_text, .btn {
+  letter-spacing: 0px;
+  font-size: 16px;
+  line-height: 22px;
+}
+.heading_medium, .side_header, .contact_text {
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: -1px;
+}
+.heading_big {
+  letter-spacing: -2px;
+  font-size: 40px;
+  line-height: 50px;
+  color: var(--green-600);
+  
+}
+/* .caption,
+.label,
+.nav{
+  letter-spacing: 0px;
+  font-size: 10px;
+  line-height: 12px;
+} */
+
+.subtitle_header{
+  letter-spacing: -1px;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  width: 85%;
+  max-width: 771px;
+  margin: 0 auto;
+}
+
+@media (min-width: 576px) {
+ 
+  .subtitle,
+  .nav,
+  .title {
+    font-size: 14px;
+    line-height: 18px
+  }  
+  .medium{
+    font-size: 16px;
+    line-height: 22px
+  }
+.shop_text, .faq_title, .faq_text  {
+  font-size: 20px;
+  line-height: 28px;
+}
+.side_header, .contact_text {
+  font-size: 24px;
+  line-height: 32px;
+}
+.subtitle_header{
+  letter-spacing: -2px;
+  font-size: 40px;
+  line-height: 50px;
+}
+.heading_big {
+  font-size: 48px;
+  line-height: 58px;
+}
+}
+@media (min-width: 1024px) {
+
+  .subtitle,
+  .paragraph_small,
+  .title,
+  .label {
+    font-size: 16px;
+    line-height: 22px
+  }
+  .subtitle_text{
+    font-size: 20px;
+    line-height: 28px; 
+  }
+  .heading_medium {
+    font-size: 24px;
+    line-height: 32px;
+  }
+  
+}
+@media (min-width: 1280px) {
+  
+  .shop_text {
+    font-size: 24px;
+    line-height: 32px;
+  }
+  .side_header {
+    letter-spacing: -2px;
+    font-size: 40px;
+    line-height: 50px;
+  }
+  .subtitle_header{
+    font-size: 48px;
+    line-height: 58px;
+  }
+  .heading_big {
+    font-size: 60px;
+    line-height: 70px;
+  }
+}
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  /* TITLE */
+
+  /* h1,h2,h3 - header_big */
+
+  /* h4,h5_ header_medium */
+
+  /* h6,h7, p1- header_small */
+ 
+  /* p2, p3 - Paragraph  */
+
+
+  
+  
+ 
+ 
+  
+

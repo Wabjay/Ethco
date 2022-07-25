@@ -1,0 +1,77 @@
+
+.contact_top{
+    color: var(--green-600);
+}
+.contact_text, .shop_text{
+    color: var(--grey-300);
+}
+.contact_top > div:first-child{
+    margin-bottom: 80px;
+}
+
+.contact_text{
+    margin: 24px 0 48px;
+}
+.medium{
+    margin: 16px 0 8px;
+}
+.shop_text{
+    padding: 0;
+}
+
+
+form{
+    background-color: var(--yellow-50);
+    border-radius: 32px;
+    padding: 24px 16px;
+}
+form > div{
+    margin-top: 32px;
+}
+label{
+    display: block;
+    margin-bottom: 8px;
+}
+textarea{
+    width: 100%;
+    background:var(--white);
+    border: 0.5px solid var(--grey-300);
+    border-radius: 8px;
+}
+textarea::placeholder{
+    padding: 16px;
+    color: var(--grey-200);
+}
+form button{
+    margin-top: 40px;
+}
+
+@media (min-width: 576px) {
+    
+    form{
+        padding: 32px;
+    }
+}
+
+@media (min-width:1024px) {
+    
+    .contact_top{
+        display: flex;
+        justify-content: space-between;
+        column-gap: 64px;
+    }
+    .contact_top > div:first-child{
+        margin-bottom: 0;
+    }
+    .contact_top > div:last-child{
+        width: 100%;
+        max-width: 564px;
+    }
+}
+@media (min-width: 1280px) {
+  
+    .shop_text {
+        font-size: 20px;
+        line-height: 28px; 
+    }
+}

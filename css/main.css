@@ -1,0 +1,258 @@
+
+main{
+    top: 70px;
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.display{
+    display: none;
+}
+
+.banner{
+    background-color: var(--green-50);
+}
+.shop{
+    background-color: var(--yellow-50);
+}
+.label, button{
+    cursor: pointer;
+}
+
+#switch{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6.5px;
+    margin-bottom: 40px;
+    width: 246px;
+    height: 51.79px;
+    border: 1.61842px solid var(--green-500);
+    border-radius: 32px;
+    background-color: var(--green-100);
+    color: var(--grey-300);
+}
+#switch p{
+    padding: 13px 15px;
+}
+#switch p.active{
+    background-color: var(--green-500);
+    border-radius: 24px;
+    color: #FFFFFF;
+}
+
+.appStore{
+    width: 279.11px;
+    height: 41.84px;
+    display: flex;
+    column-gap: 10px;
+    margin-bottom: 40px;
+}
+.appStore img{
+    width: 100%;
+}
+.illustration{
+    width: 100%;
+    max-width: 468px;
+}
+
+
+.cards{
+    text-align: center;
+}
+.cards > div{
+    margin-top: 40px;
+}
+.cards .heading_medium{
+    margin: 32px 0 8px;
+}
+
+/* STOREOWNERS PAGE */
+
+#storeowners .split{
+    margin-top: 0;
+}
+
+
+#storeowners .content{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#storeowners .content .split{
+    display: flex;
+    justify-content: center;
+    column-gap: 43.24px;
+}
+#storeowners .content .split  img{
+    margin-top: 0;
+    width: 75.29px;
+    height: 17.31px;
+
+}
+
+
+#storeowners .waitlist .split{
+    height: auto;
+    margin-top: 40px;
+}
+
+.store_offers{
+    padding: 40px 16px;
+    border:  2px dashed var(--yellow-300);
+    border-radius:  24px;
+    text-align: left;
+    width: 100%;
+    /* max-width: 564px; */
+    height: 100%;
+}
+#storeowners .store_offers{
+height: 560px;
+margin: 40px 0 0;
+}
+
+.store_offers .side_header{
+    margin-bottom: 32px
+}
+.offer_list{
+    list-style: none;
+}
+.offer_list li{
+    margin: 24px 0;
+    background-image: url(./../images/Tick_yellow.png);
+    padding:0 40px;
+    background-repeat: no-repeat;
+    background-position: inherit;
+}
+.features .cards{
+    text-align: left;
+}
+
+
+/* STOREOWNERS PAGE */
+
+/* WAITLIST */
+
+.waitlist{
+    background-color: var(--green-600);
+    color: var(--white);
+    text-align: center;
+}
+.waitlist .subtitle_text{
+    padding: 24px 0 40px;
+    width: 90%;
+    max-width: 661px;
+    margin: 0 auto;
+}
+.input_code{
+    margin: 16px 0 24px;
+}
+/* WAITLIST */
+
+
+
+@media (min-width:576px) {
+    .cards{
+        text-align: center;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: space-between;
+        grid-column-gap: 24px;
+    }
+
+    #storeowners .content{
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    #storeowners .content .split{
+        column-gap: 80px;
+    }
+    #storeowners .content .split  img{
+        width: 138.04px;
+        height: 31.73px;
+        
+    }
+}
+@media (min-width: 1024px) {
+    .main{
+        margin-bottom: 80px;
+    }
+    .banner{
+        display: flex;
+        column-gap: 50px;
+    }
+    #switch{
+        width: 304px;
+        height: 64px;
+    }
+    #switch p{
+        padding: 13px 18px;
+    }
+    .appStore{
+        width: 354px;
+        height: 51.68px;
+        column-gap: 22.15px;
+        margin-bottom: 0;
+        }
+        /* Shop */
+
+        .cards{
+            grid-template-columns: repeat(4,1fr);
+        }
+
+        /* Shop */
+
+        /* WAITLIST */
+
+        .waitlist .subtitle_text{
+            padding-top: 32px;
+        }
+
+        .waitlist_form{
+            display: flex;
+            justify-content: center;
+        }
+        .input_code{
+            margin: 0 24px 0 16px;
+            width: 234px;
+        }
+        .input_email{
+            width: 351px;
+        }
+        .btn_waitlist{
+                width: 215px;
+        }
+         /* WAITLIST END*/
+
+         /* Store */
+
+        #storeowners .waitlist .split{
+            column-gap: 24px;
+            margin-top: 50px;
+        }
+        #storeowners .store_offers{
+            margin: 0;
+        }
+        #storeowners .content .split{
+            column-gap: 120px;
+        }
+        #storeowners .content .split img{
+            width: 207.32px;
+            height: 47.66px;
+        }
+       /* Store END*/
+}
+@media (min-width:1280px) {
+
+    #storeowners .store_offers{
+        height: 604px;
+        padding: 40px;
+        }
+        #storeowners .content .split{
+            column-gap: 140px;
+        }
+        #storeowners .content .split img{
+            margin-top: 0;
+            /* width: 243.62px; */
+            height: 56px;
+        }
+}
