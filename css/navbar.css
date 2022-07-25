@@ -9,13 +9,14 @@
     height: 24px;
 }
 Header{
-    height: 102.28px;
+    height: 102px;
     position: absolute;
     top: 0;
     width: 100%;
     border-bottom: 0.5px var(--grey-200) solid;
     background: #FFFFFF;
 }
+
 Navbar{
     width: 100%;
     max-width: 1440px;
