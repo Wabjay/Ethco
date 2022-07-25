@@ -26,13 +26,19 @@ Navbar{
     margin: 0 auto;
     height: inherit;
 }
+
 .display_toggle{
-    display: none;
+    width: 100%;
+    background-color: var(--white);
     position: absolute;
-    top: 110px;
-    left: 16px;
-    padding: 0;
+    top: 102px;
+    left: 0;
+    padding: 40px 16px;
     list-style: none;
+    z-index: 100;
+}
+.toggle{
+    display: none;
 }
 .display_toggle > li{
     margin-bottom: 40px;
@@ -48,11 +54,12 @@ Navbar{
 }
 
 @media (min-width: 576px) {
-    .display_toggle{
+    /* .display_toggle{
         left: 24px;
-    }
+    } */
 }
 @media (min-width: 1024px) {
+
     .logo{
         width: 218.54px;
         height: 45.04px;
@@ -63,11 +70,16 @@ Navbar{
         display: flex;
         justify-content: space-between;
         left: 0;
+        padding: 0;
     }
     .display_toggle li{
         margin-left: 60px;
+        margin-bottom: 24px;
     }
     .grid{
         display: none;
+    }
+    .toggle{
+        display: flex;
     }
 }

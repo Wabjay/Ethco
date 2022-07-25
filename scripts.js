@@ -1,3 +1,10 @@
+var grid = document.querySelector(".grid")
+var display_toggle = document.querySelector(".display_toggle")
+grid.addEventListener("click", function(){
+  console.log(display_toggle.classList)
+  display_toggle.classList.toggle("toggle")
+})
+
 var acc = document.getElementsByClassName("faq_title");
 var i;
 
