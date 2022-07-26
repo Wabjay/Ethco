@@ -9,7 +9,7 @@
     height: 24px;
 }
 Header{
-    height: 102px;
+    height: 70px;
     position: absolute;
     top: 0;
     width: 100%;
@@ -60,10 +60,10 @@ Navbar{
 }
 @media (min-width: 1024px) {
 
-    .logo{
+    /* .logo{
         width: 218.54px;
         height: 45.04px;
-    }
+    } */
     .display_toggle{
         position: relative;
         top: 20px;
