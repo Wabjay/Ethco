@@ -17,7 +17,9 @@
 .label, button{
     cursor: pointer;
 }
-
+.subtitle_header, .side_header{
+    color: var(--grey-600);
+}
 #switch{
     display: flex;
     justify-content: space-between;
@@ -116,7 +118,8 @@ margin: 40px 0 0;
 }
 
 .store_offers .side_header{
-    margin-bottom: 32px
+    margin-bottom: 32px;
+    color: var(--white) ;
 }
 .offer_list{
     list-style: none;
@@ -139,11 +142,14 @@ margin: 40px 0 0;
 
 .waitlist{
     background-color: var(--green-600);
-    color: var(--white);
+    color: var(--white) ;
     text-align: center;
 }
+.waitlist .subtitle_header{
+    color: var(--white) ;
+}
 .waitlist .subtitle_text{
-    padding: 24px 0 40px;
+    padding: 24px 0 50px;
     width: 90%;
     max-width: 661px;
     margin: 0 auto;
@@ -214,9 +220,9 @@ margin: 40px 0 0;
 
         /* WAITLIST */
 
-        .waitlist .subtitle_text{
+        /* .waitlist .subtitle_text{
             padding-top: 32px;
-        }
+        } */
 
         .waitlist_form{
             display: flex;

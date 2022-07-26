@@ -25,6 +25,9 @@ Footer .container .logo{
 .social{
     margin: 24.55px 0 50px;
 }
+.social a:nth-child(2){
+    padding: 0 24px;
+}
 Footer p{
     width: 218px;
 }
