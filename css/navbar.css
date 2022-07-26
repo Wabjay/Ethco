@@ -31,7 +31,7 @@ Navbar{
     width: 100%;
     background-color: var(--white);
     position: absolute;
-    top: 102px;
+    top: 70px;
     left: 0;
     padding: 40px 16px;
     list-style: none;
@@ -64,6 +64,11 @@ Navbar{
         width: 218.54px;
         height: 45.04px;
     } */
+    Navbar li .heading_medium{
+        font-size: 16px;
+        line-height: 22px;
+        font-weight: 400;
+    }
     .display_toggle{
         position: relative;
         top: 20px;
