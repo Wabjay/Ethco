@@ -20,6 +20,44 @@
          margin: 0;
          padding: 0;
      }
+
+     /* POP UP */
+
+     #popup{
+        display: none;
+        position: fixed;
+        top: 20px;
+        right: 10px;
+        background-color: var(--white);
+        border-radius: 16px;
+        padding: 111px 70px 101px;
+        width: 50%;
+        max-width: 564px;
+        height: fit-content;
+        text-align: center;
+        z-index: 100;
+     }
+     #popup .btn_small{
+        width: 169px;
+        height: 56px;
+        margin: 56px auto 24px;
+     }
+
+     #popup .btn{
+        background-color: var(--white);
+        border: 1px solid var(--grey-200);
+        border-radius: 8px;
+        color: var(--grey-200);
+        padding: 17px 16px;
+        width: 276px;
+        height: 56px;
+        margin: 0 auto;
+     }
+
+
+     /* POP UP */
+
+
      #shopper > div, #storeowners > div{
          width: 100%;
      }
