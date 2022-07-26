@@ -71,7 +71,7 @@ Navbar{
     }
     .display_toggle{
         position: relative;
-        top: 20px;
+        top: 10px;
         display: flex;
         justify-content: space-between;
         left: 0;
