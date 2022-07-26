@@ -30,7 +30,7 @@
     color: var(--green-500);
 }
 .store_offers .offer_list li{
-    background-image: url(./../images/Tick_black.png);
+    background-image: url(./../images/Tick_black.svg);
 }
 .store_offers:nth-child(even){
     background-color: var(--green-500);
@@ -48,7 +48,7 @@
     color: var(--white);
 }
 .store_offers:nth-child(even) .offer_list li{
-    background-image: url(./../images/Tick_yellow.png);
+    background-image: url(./../images/Tick_yellow.svg);
 }
 
 .most_preffered{

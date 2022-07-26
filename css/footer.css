@@ -40,6 +40,9 @@ Footer p{
     text-decoration: none;
     color: inherit;
 }
+Footer .subtitle{
+    margin-top: 32px;
+}
 @media (min-width: 576px) {
     /* Footer .container{
         padding: 80px 24px;
