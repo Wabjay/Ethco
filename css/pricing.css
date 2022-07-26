@@ -14,10 +14,11 @@
     border: none;
     background-color: var(--yellow-50);
     margin: 40px 0;
-    padding: 16px;
+    padding:24px 16px;
 }
 .store_offers .side_header{
     margin-bottom: 16px;
+    color: var(--green-600);
 }
 
 .store_offers .heading_big span{
@@ -31,6 +32,10 @@
 }
 .store_offers .offer_list li{
     background-image: url(./../images/Tick_black.svg);
+    color: var(--grey-300);
+}
+.store_offers .btn{
+    margin-top: 16px;
 }
 .store_offers:nth-child(even){
     background-color: var(--green-500);
@@ -39,7 +44,6 @@
 .store_offers:nth-child(even) .btn{
     background-color: var(--white);
     color: var(--green-600);
-    margin-top: 32px;
 }
 .store_offers:nth-child(even) .heading_big{
     color: var(--yellow-300);
@@ -47,8 +51,12 @@
 .store_offers:nth-child(even) .heading_big span{
     color: var(--white);
 }
+.store_offers:nth-child(even) .side_header{
+    color: var(--white);
+}
 .store_offers:nth-child(even) .offer_list li{
     background-image: url(./../images/Tick_yellow.svg);
+    color: var(--white);
 }
 
 .most_preffered{
@@ -61,9 +69,14 @@
     font-weight: 800;
     font-size: 20px;
     line-height: 28px;
-    margin: -31px auto 16px;
+    margin: -52px auto 8px;
     text-align: center;
     padding-top: 8px;
+}
+
+
+.btn_small{
+    margin-top: 0;
 }
 @media (min-width: 576px) {
     .store_offers{
@@ -88,6 +101,18 @@
     }
     .most_preffered{
         margin-top: -39px;
+    }
+    .store_offers .side_header{
+        font-size: 20px;
+        line-height: 28px; 
+      }
+    .store_offers .heading_big {
+        font-size: 40px;
+        line-height: 50px;
+      }
+      .offer_list li {
+        font-size: 16px;
+        line-height: 22px;
     }
 }
 @media (min-width: 1280px) {

@@ -54,7 +54,6 @@
 }
 .illustration{
     width: 100%;
-    max-width: 468px;
 }
 
 
@@ -66,9 +65,19 @@
 }
 .cards .heading_medium{
     margin: 32px 0 8px;
+    color: var(--grey-600);
+}
+.cards img{
+    width: 193.85px;
+    height: 185.78px;
 }
 
 /* STOREOWNERS PAGE */
+
+
+#storeowners .illustration{
+    position: relative;
+}
 
 #storeowners .split{
     margin-top: 0;
@@ -112,6 +121,9 @@
     text-align: left;
     margin-left: 0;
 }
+.features .cards .heading_medium {
+    margin-top: 24px;
+}
 #storeowners .store_offers{
 height: 560px;
 margin: 40px 0 0;
@@ -127,12 +139,17 @@ margin: 40px 0 0;
 .offer_list li{
     margin: 24px 0;
     background-image: url(./../images/Tick_yellow.svg);
-    padding:0 40px;
+    padding-left: 40px;
     background-repeat: no-repeat;
     background-position: inherit;
+    background-size: 20px;
 }
 .features .cards{
     text-align: left;
+}
+.features .cards img{
+    width: 64px;
+    height: 64px;
 }
 
 
@@ -197,6 +214,9 @@ margin: 40px 0 0;
     .banner > div:first-child{
         margin-bottom: 0;
     }
+    .illustration{
+        max-width: 567px;
+    }
     #switch{
         width: 304px;
         height: 64px;
@@ -214,7 +234,13 @@ margin: 40px 0 0;
 
         .cards{
             grid-template-columns: repeat(4,1fr);
+            margin-top: 50px;
+            grid-row-gap: 56px;
         }
+        .cards > div{
+            margin-top: 0;
+        }
+
 
         /* Shop */
 
@@ -242,6 +268,10 @@ margin: 40px 0 0;
 
          /* Store */
 
+         #storeowners .illustration{
+            max-width: 668px;
+            right: -24px;
+        }
         #storeowners .waitlist .split{
             column-gap: 24px;
             margin-top: 50px;
@@ -271,5 +301,11 @@ margin: 40px 0 0;
             margin-top: 0;
             /* width: 243.62px; */
             height: 56px;
+        }
+        #storeowners .illustration{
+            right: -115px;
+        }
+        .cards{
+            grid-row-gap: 72px;
         }
 }

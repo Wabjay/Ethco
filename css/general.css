@@ -20,12 +20,25 @@
          margin: 0;
          padding: 0;
      }
+     #shopper > div, #storeowners > div{
+         width: 100%;
+     }
+
+     .banner_container{
+        background-color: var(--green-50);
+     }
+     .shop_container{
+        background-color: var(--yellow-50);
+    }
+    .waitlist_container{
+        background-color: var(--green-600);
+    }
      .container{
          padding: 16px;
      }
      section{
          padding: 40px 16px;
-         /* max-width: 1440px; */
+         max-width: 1440px;
          margin: 0 auto;
          width: 100%;
      }
@@ -50,6 +63,7 @@
      }
      .split img{
          width: 100%;
+         max-width: 567px;
          margin-top: 40px;
      }
      .btn, .btn_small, .btn_waitlist{
@@ -116,6 +130,7 @@
     content: '\002B';
     color: var(--grey-400);
     font-weight: bold;
+    font-size: 40px;
     float: right;
     margin-left: 5px;
   }
@@ -125,7 +140,7 @@
   }
   
   .faq_text {
-    padding: 0 24px 0 18px;
+    padding: 0 24px;
     background-color:var(--green-50);
     color: var(--grey-400);
     max-height: 0;

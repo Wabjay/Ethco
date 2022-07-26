@@ -18,6 +18,10 @@
 .shop_text{
     padding: 0;
 }
+.contact_text, .shop_text {
+    width: 100%;
+    max-width: 428px;
+}
 
 
 form{
@@ -44,6 +48,12 @@ textarea::placeholder{
 }
 form button{
     margin-top: 40px;
+}
+
+/* Waitlist */
+
+.btn_small{
+    margin-top: 0;
 }
 
 @media (min-width: 576px) {
