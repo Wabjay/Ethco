@@ -30,7 +30,7 @@
         right: 10px;
         background-color: var(--white);
         border-radius: 16px;
-        padding: 111px 70px 101px;
+        /* padding:20% 50%; */
         width: 50%;
         max-width: 564px;
         height: fit-content;
@@ -38,7 +38,8 @@
         z-index: 100;
      }
      #popup .btn_small{
-        width: 169px;
+        /* width: 169px; */
+        width: 50%;
         height: 56px;
         margin: 56px auto 24px;
      }
