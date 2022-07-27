@@ -148,6 +148,7 @@
     color: var(--grey-500);
     cursor: pointer;
     display: flex;
+    font-family: 'avenir','Courier New', 'monospace';
     justify-content: space-between;
     padding: 18px 24px;
     width: 100%;

@@ -139,7 +139,7 @@ margin: 40px 0 0;
 .offer_list li{
     margin: 24px 0;
     background-image: url(./../images/Tick_yellow.svg);
-    padding-left: 40px;
+    padding-left: 36px;
     background-repeat: no-repeat;
     background-position: inherit;
     background-size: 20px;
@@ -213,6 +213,11 @@ margin: 40px 0 0;
     }
     .banner > div:first-child{
         margin-bottom: 0;
+    }
+    #storeowners .banner{ 
+        display: grid;
+    column-gap: 20px;
+    grid-template-columns: 1fr 1fr;
     }
     .illustration{
         max-width: 567px;

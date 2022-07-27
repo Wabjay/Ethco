@@ -14,7 +14,7 @@
     border: none;
     background-color: var(--yellow-50);
     margin: 40px 0;
-    padding:24px 16px;
+    padding:16px;
 }
 .store_offers .side_header{
     margin-bottom: 16px;
@@ -30,12 +30,18 @@
 .store_offers .heading_big{
     color: var(--green-500);
 }
+.offer_list li {
+  font-size: 16px;
+  line-height: 22px;
+}
 .store_offers .offer_list li{
     background-image: url(./../images/Tick_black.svg);
     color: var(--grey-300);
 }
 .store_offers .btn{
     margin-top: 16px;
+    height: 48px;
+    padding: 0;
 }
 .store_offers:nth-child(even){
     background-color: var(--green-500);
@@ -97,10 +103,9 @@
     }
     .store_offers{
         margin: 0;
-        padding: 24px 16px;
     }
     .most_preffered{
-        margin-top: -39px;
+        margin-top: -55px;
     }
     .store_offers .side_header{
         font-size: 20px;
@@ -110,10 +115,6 @@
         font-size: 40px;
         line-height: 50px;
       }
-      .offer_list li {
-        font-size: 16px;
-        line-height: 22px;
-    }
 }
 @media (min-width: 1280px) {
     /* .store_offers {

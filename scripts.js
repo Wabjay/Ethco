@@ -22,6 +22,8 @@ for (i = 0; i < acc.length; i++) {
 }
 
 
+
+
 // function switcher() {
    const shop = document.getElementById("shopper");
    const store = document.getElementById("storeowners");
@@ -43,3 +45,26 @@ for (i = 0; i < acc.length; i++) {
     }
 // }
 // switcher()
+
+
+const pop = document.querySelectorAll('.pop');
+const popup = document.getElementById("popup");
+for (let i = 0; i < pop.length; i++) {
+  pop[i].addEventListener("click", function(){
+    popup.style.display = "block"
+  })
+};
+
+
+// $(window).click(function() {
+//   popup.style.display = "none"
+//   display_toggle.style.display = "none"
+// });
+window.addEventListener('mouseup', function(event){
+	if (event.target != popup && event.target.parentNode != popup){
+    popup.style.display = 'none';
+    }
+    if (event.target != display_toggle && event.target.parentNode != display_toggle){
+      display_toggle.classList.add("toggle")
+      }
+});

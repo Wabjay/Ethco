@@ -4,6 +4,9 @@
     width: 147px;
     height: 30.29px;
 }
+.logo img{
+    width: 100%;
+}
 .grid{
     width: 24px;
     height: 24px;
