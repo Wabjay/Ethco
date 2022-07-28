@@ -56,14 +56,7 @@ for (let i = 0; i < pop.length; i++) {
   })
 };
 
-// window.addEventListener('mouseup', function(event){
-// 	if (event.target != popup && event.target.parentNode != popup){
-//     popup.style.display = 'none';
-//      }
-// });
-
-close_popup.addEventListener('click', function(){
-  console.log("second")
+  close_popup.addEventListener("click", function(){
     popup.style.display = 'none';
      }
-);
+  );

@@ -6,11 +6,11 @@
     color: var(--grey-300);
 }
 .contact_top > div:first-child{
-    margin-bottom: 80px;
+    margin-bottom: 40px;
 }
 
 .contact_text{
-    margin: 24px 0 48px;
+    margin: 16px 0 80px;
 }
 .medium{
     margin: 16px 0 8px;
@@ -30,8 +30,16 @@ form{
     padding: 24px 16px;
 }
 form > div{
+    margin-top: 24px;
+}
+form > .title{
     margin-top: 32px;
 }
+input{
+    height: 48px;
+    color: var(--grey-600);
+}
+
 label{
     display: block;
     margin-bottom: 8px;
@@ -41,13 +49,16 @@ textarea{
     background:var(--white);
     border: 0.5px solid var(--grey-300);
     border-radius: 8px;
+    font-family: 'Avenir', 'Courier New',
+    monospace;
+    padding: 13px 16px;
 }
 textarea::placeholder{
-    padding: 16px;
     color: var(--grey-200);
 }
-form button{
-    margin-top: 40px;
+form .contact_button{
+    margin-top: 24px;
+    height: 48px;
 }
 
 /* Waitlist */
@@ -58,8 +69,21 @@ form button{
 
 @media (min-width: 576px) {
     
+    .contact_top > div:first-child{
+        margin-bottom: 80px;
+    }
+
     form{
         padding: 32px;
+    }
+    form > .title{
+        margin-top: 48px;
+    }
+    form > div{
+        margin-top: 32px;
+    }
+    form button{
+        margin-top: 40px;
     }
 }
 
