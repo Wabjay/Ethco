@@ -40,11 +40,8 @@ input{
     color: var(--grey-600);
 }
 input[type=text]:focus {
-    border: 1px solid red;
-  }
-/* input[type=text]:focus {
     border: 1px solid var(--green-400);
-  } */
+  }
 label{
     display: block;
     margin-bottom: 8px;

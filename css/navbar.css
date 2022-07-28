@@ -58,16 +58,10 @@ Navbar{
 }
 
 @media (min-width: 576px) {
-    /* .display_toggle{
-        left: 24px;
-    } */
+   
 }
 @media (min-width: 1024px) {
 
-    /* .logo{
-        width: 218.54px;
-        height: 45.04px;
-    } */
     Navbar li .heading_medium{
         font-size: 16px;
         line-height: 22px;

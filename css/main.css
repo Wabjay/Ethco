@@ -114,7 +114,6 @@
     width: 100%;
     font-size: 16px;
     line-height: 22px;
-    /* max-width: 564px; */
     height: 100%;
 }
 .features .subtitle_header{
@@ -220,11 +219,6 @@ margin: 40px 0 0;
     column-gap: 20px;
     grid-template-columns: 1fr 1fr;
     }
-    /* .illustration{
-        position: absolute;
-        max-width: 567px;
-        top: 100px;
-    } */
     #switch{
         width: 304px;
         height: 64px;
@@ -309,7 +303,6 @@ margin: 40px 0 0;
         }
         #storeowners .content .split img{
             margin-top: 0;
-            /* width: 243.62px; */
             height: 56px;
         }
         #storeowners .illustration{

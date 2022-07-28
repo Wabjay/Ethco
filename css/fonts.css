@@ -24,10 +24,6 @@
   font-weight: 800;
 }
 
-/* 
-.subtitle,
-.btn,
-.title,  */
 .label,
 .caption{
   letter-spacing: 0px;
@@ -62,13 +58,6 @@
   color: var(--green-600);
   
 }
-/* .caption,
-.label,
-.nav{
-  letter-spacing: 0px;
-  font-size: 10px;
-  line-height: 12px;
-} */
 
 .subtitle_header{
   letter-spacing: -1px;
