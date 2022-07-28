@@ -89,6 +89,9 @@ form .contact_button{
     form > div{
         margin-top: 32px;
     }
+    form .contact_button {
+        margin-top: 40px;
+    }
     form button{
         margin-top: 40px;
     }
