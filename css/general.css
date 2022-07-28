@@ -65,6 +65,7 @@
         height: 56px;
         margin: 56px auto 24px;
         display: block;
+        text-decoration: none;
      }
 
      #popup .btn{
