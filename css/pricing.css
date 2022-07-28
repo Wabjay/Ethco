@@ -19,6 +19,7 @@
 .store_offers .side_header{
     margin-bottom: 16px;
     color: var(--green-600);
+    letter-spacing: 0.48px;
 }
 
 .store_offers .heading_big span{
@@ -66,7 +67,7 @@
 }
 
 .most_preffered{
-    border-radius: 10px;
+    border-radius: 20px;
     width: 174px;
     height: 44px;
     background-color: var(--yellow-300);
@@ -87,7 +88,7 @@
 @media (min-width: 576px) {
     .store_offers{
         margin: 80px 0;
-        padding: 32px 16px;
+        padding: 32px 24px;
     }
     .most_preffered{
         margin-top: -47px;
@@ -115,4 +116,9 @@
         font-size: 40px;
         line-height: 50px;
       }
+}
+@media (min-width: 1280px) {
+    .store_offers{
+        padding: 32px;
+    }
 }

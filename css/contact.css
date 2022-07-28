@@ -39,9 +39,13 @@ input{
     height: 48px;
     color: var(--grey-600);
 }
-input[type=text]:focus {
-    border: 1px solid var(--green-400);
-  }
+/* input:active {
+    box-shadow: 0 0 3px var(--green-500);
+} */
+input[type="text" i]:active {
+      border: 1px solid var(--green-500);
+    padding: 1px 2px;
+}
 label{
     display: block;
     margin-bottom: 8px;
@@ -53,7 +57,8 @@ textarea{
     border-radius: 8px;
     font-family: 'Avenir', 'Courier New',
     monospace;
-    padding: 13px 16px;
+    padding: 16px;
+    font-size: 16px;
 }
 textarea::placeholder{
     color: var(--grey-200);

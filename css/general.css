@@ -71,7 +71,7 @@
         background-color: var(--white);
         border: 1px solid var(--grey-200);
         border-radius: 8px;
-        color: var(--grey-200);
+        color: var(--grey-600);
         padding: 17px 16px;
         width: 276px;
         height: 56px;
@@ -162,9 +162,6 @@
      input::placeholder{
          color: var(--grey-200);
      }
-     input[type=text]:focus {
-        border: 1px solid red;
-      }
 /* FAQ STYLE */
 .faq .subtitle_header{
     margin-bottom: 50px;
