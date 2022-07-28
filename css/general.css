@@ -163,8 +163,9 @@
      input::placeholder{
          color: var(--grey-200);
      }
-     
-     
+     input[type=text]:focus {
+        border: 1px solid red;
+      }
 /* FAQ STYLE */
 .faq .subtitle_header{
     margin-bottom: 50px;
@@ -194,16 +195,17 @@
   }
   
   .faq_title:after {
-    content: '\002B';
+    content: url(../images/icon+.png);
     color: var(--grey-400);
     font-weight: bold;
-    font-size: 40px;
+    width: 24px;
+    height: 24px;
     float: right;
     margin-left: 5px;
   }
   
   .faq_title.active:after {
-    content: "\2212";
+    content:  url(../images/icon-.png);;
   }
   
   .faq_text {
@@ -214,8 +216,6 @@
     width: 100%;
     max-width: 955px;
     margin: -12px auto 31px;
-    /* margin-bottom: 31px;
-    margin-top: -12px; */
     border-bottom-left-radius: 16px;
     border-bottom-right-radius: 16px;
     overflow: hidden;

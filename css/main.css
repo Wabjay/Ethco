@@ -313,6 +313,7 @@ margin: 40px 0 0;
             height: 56px;
         }
         #storeowners .illustration{
+            max-width: 684px;
             right: 29px;
         }
         .cards{

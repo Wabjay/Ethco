@@ -32,14 +32,19 @@ form{
 form > div{
     margin-top: 24px;
 }
-form > .title{
+form > .title_box{
     margin-top: 32px;
 }
 input{
     height: 48px;
     color: var(--grey-600);
 }
-
+input[type=text]:focus {
+    border: 1px solid red;
+  }
+/* input[type=text]:focus {
+    border: 1px solid var(--green-400);
+  } */
 label{
     display: block;
     margin-bottom: 8px;
@@ -76,7 +81,7 @@ form .contact_button{
     form{
         padding: 32px;
     }
-    form > .title{
+    form > .title_box{
         margin-top: 48px;
     }
     form > div{
