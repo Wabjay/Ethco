@@ -49,22 +49,21 @@ for (i = 0; i < acc.length; i++) {
 
 const pop = document.querySelectorAll('.pop');
 const popup = document.getElementById("popup");
+const close_popup = document.querySelector('.close_popup');
 for (let i = 0; i < pop.length; i++) {
   pop[i].addEventListener("click", function(){
     popup.style.display = "block"
   })
 };
 
-
-// $(window).click(function() {
-//   popup.style.display = "none"
-//   display_toggle.style.display = "none"
+// window.addEventListener('mouseup', function(event){
+// 	if (event.target != popup && event.target.parentNode != popup){
+//     popup.style.display = 'none';
+//      }
 // });
-window.addEventListener('mouseup', function(event){
-	if (event.target != popup && event.target.parentNode != popup){
+
+close_popup.addEventListener('click', function(){
+  console.log("second")
     popup.style.display = 'none';
-    }
-    if (event.target != display_toggle && event.target.parentNode != display_toggle){
-      display_toggle.classList.add("toggle")
-      }
-});
+     }
+);
