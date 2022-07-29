@@ -39,12 +39,8 @@ input{
     height: 48px;
     color: var(--grey-600);
 }
-/* input:active {
-    box-shadow: 0 0 3px var(--green-500);
-} */
-input[type="text" i]:active {
-      border: 1px solid var(--green-500);
-    padding: 1px 2px;
+input:focus {
+    border: 1px solid var(--green-400);
 }
 label{
     display: block;
@@ -59,6 +55,11 @@ textarea{
     monospace;
     padding: 16px;
     font-size: 16px;
+    outline: none;
+
+}
+textarea:focus {
+    border: 1px solid var(--green-400);
 }
 textarea::placeholder{
     color: var(--grey-200);
