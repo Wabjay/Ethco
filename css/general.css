@@ -147,6 +147,9 @@
          width: 179px;
          margin-top: 40px;
      }
+     a.btn_small{
+        display: block;
+     }
      input{
          border: 0.5px solid var(--grey-300);
          border-radius: 8px;

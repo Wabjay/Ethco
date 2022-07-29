@@ -1,5 +1,5 @@
 
-.contact_top{
+.contact{
     color: var(--green-600);
 }
 .contact_text, .shop_text{
@@ -107,8 +107,6 @@ form .contact_button{
     }
     .contact_top > div:first-child{
         margin-bottom: 0;
-    }
-    .contact_top > div:last-child{
         width: 100%;
         max-width: 564px;
     }
