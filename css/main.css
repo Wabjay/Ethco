@@ -54,6 +54,8 @@
 }
 .illustration{
     width: 100%;
+    max-width: 260px;
+    height: 255.96px;
 }
 
 
@@ -178,6 +180,10 @@ margin: 40px 0 0;
 
 
 @media (min-width:576px) {
+    .illustration{
+        max-width: 468px;
+        height: 460.72px;
+    }
     .cards{
         text-align: center;
         display: grid;
@@ -294,6 +300,11 @@ margin: 40px 0 0;
 }
 @media (min-width:1280px) {
 
+    
+    .illustration{
+        max-width: 562px;
+        height: 553.26px;
+    }
     #storeowners .store_offers{
         height: 604px;
         padding: 40px;
