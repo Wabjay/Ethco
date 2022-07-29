@@ -67,6 +67,7 @@ textarea::placeholder{
 form .contact_button{
     margin-top: 24px;
     height: 48px;
+    padding: 0;
 }
 
 /* Waitlist */
@@ -79,6 +80,9 @@ form .contact_button{
     
     .contact_top > div:first-child{
         margin-bottom: 80px;
+    }
+    .contact .phone{
+        margin-top: 24px;
     }
 
     form{
