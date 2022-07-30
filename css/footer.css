@@ -44,6 +44,10 @@ Footer p{
 Footer .subtitle{
     margin-top: 32px;
 }
+Footer .subtitle a{
+    color: inherit;
+    text-decoration: underline;
+}
 @media (min-width: 576px) {
     Footer p{
         width: 263px;
