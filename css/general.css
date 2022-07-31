@@ -153,6 +153,7 @@
          border-radius: 8px;
          color: var(--white);
          padding: 17px 16px;
+         text-align: center;
          width: 100%;
          height: 56px;
          font-weight: 500;
