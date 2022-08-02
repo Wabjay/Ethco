@@ -57,3 +57,30 @@ const close_popup = document.querySelector(".close_popup");
 close_popup.addEventListener("click", function () {
   popup.style.display = "none";
 });
+
+
+
+var thisForm = document.getElementById("waitlist_form");
+const headers_ = {
+     'Authorization': 'Bearer keyAs1krG80fTzo0c',
+     'Content-Type': 'application/json'
+};
+// When the form is submitted...
+thisForm.addEventListener("submit", function(event) {
+   event.preventDefault();
+// POST the data
+axios.post('https://api.airtable.com/v0/appJWS6wauaLZYypKLocation%20waitlist',
+{
+   "fields": {
+    "Email": document.getElementById("waitlist_email").value,
+    "Zip code": document.getElementById("zipCode").value
+}
+}, {headers: headers_}
+)
+.then((resp) => {
+  console.log("success!")
+})
+.catch(function (error) {
+  console.log(error);
+});
+});
