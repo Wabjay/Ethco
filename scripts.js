@@ -69,7 +69,7 @@ const headers_ = {
 thisForm.addEventListener("submit", function(event) {
    event.preventDefault();
 // POST the data
-axios.post('https://api.airtable.com/v0/appJWS6wauaLZYypKLocation%20waitlist',
+axios.post('https://api.airtable.com/v0/appJWS6wauaLZYypK/waitlist',
 {
    "fields": {
     "Email": document.getElementById("waitlist_email").value,
