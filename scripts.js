@@ -60,6 +60,9 @@ close_popup.addEventListener("click", function () {
 
 
 
+
+
+function waitlist(){
 var thisForm = document.getElementById("waitlist_form");
 const headers_ = {
      'Authorization': 'Bearer keyAs1krG80fTzo0c',
@@ -84,3 +87,34 @@ axios.post('https://api.airtable.com/v0/appJWS6wauaLZYypK/waitlist',
   console.log(error);
 });
 });
+}
+// waitlist()
+
+
+function contactForm(){
+  var thisForm = document.getElementById("contact_form");
+  const headers_ = {
+       'Authorization': 'Bearer keyAs1krG80fTzo0c',
+       'Content-Type': 'application/json'
+  };
+  // When the form is submitted...
+  thisForm.addEventListener("submit", function(event) {
+     event.preventDefault();
+  // POST the data
+  axios.post('https://api.airtable.com/v0/appJWS6wauaLZYypK/contactForm',
+  {
+     "fields": {
+      "Title": document.getElementById("contact_title").value,
+      "Message": document.getElementById("contact_message").value
+  }
+  }, {headers: headers_}
+  )
+  .then((resp) => {
+    console.log("success!")
+  })
+  .catch(function (error) {
+    console.log(error);
+  });
+  });
+  }
+// contactForm()

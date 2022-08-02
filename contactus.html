@@ -41,7 +41,7 @@
             </div>
             <div class="contact_top">
                 <div>
-                    <form action="">
+                    <form action="" id="contact_form">
                         <p class="side_header">Send us a message</p>
                         <div class="title_box">
                             <label for="contact_title">Your title</label>
@@ -52,7 +52,7 @@
                             <textarea name="contact_message" id="contact_message" cols="30" rows="10"
                                 placeholder="Enter your message"></textarea>
                         </div>
-                        <button class="btn contact_button">SEND MESSAGE</button>
+                        <button type="submit" name="submit" class="btn contact_button">SEND MESSAGE</button>
                     </form>
                 </div>
                 <div class="contact">
@@ -161,7 +161,10 @@
         </div>
     </Footer>
 
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script src="scripts.js"></script>
-    <!-- <script src="chat.js"></script> -->
+    <script>
+        contactForm()
+    </script>
 </body>
 </html>
