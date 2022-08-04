@@ -172,6 +172,10 @@ margin: 40px 0 0;
 }
 .input_code{
     margin: 16px 0 24px;
+    text-transform: uppercase;
+}
+.input_code::placeholder{
+    text-transform: capitalize;
 }
 /* WAITLIST */
 

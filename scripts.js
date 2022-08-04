@@ -61,10 +61,11 @@ close_popup.addEventListener("click", function () {
 
 
 
-
+// AIRTABLE SNIPPET FOR FORM UPDATE
 function waitlist(){
 var thisForm = document.getElementById("waitlist_form");
 const headers_ = {
+  // API KEY IN Bearer
      'Authorization': 'Bearer keyAs1krG80fTzo0c',
      'Content-Type': 'application/json'
 };
