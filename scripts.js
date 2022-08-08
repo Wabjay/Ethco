@@ -61,6 +61,9 @@ close_popup.addEventListener("click", function () {
 
 
 
+const waitlist_pop = document.getElementById("waitlist_popup");
+
+
 // AIRTABLE SNIPPET FOR FORM UPDATE
 function waitlist(){
 var thisForm = document.getElementById("waitlist_form");
@@ -83,13 +86,21 @@ axios.post('https://api.airtable.com/v0/appJWS6wauaLZYypK/waitlist',
 )
 .then((resp) => {
   console.log("success!")
+  waitlist_pop.classList.add("show")
+  if(waitlist_pop.classList.contains("show")) // Check if the popup is shown
+setTimeout(() => waitlist_pop.classList.remove("show"), 5000);
+// thisForm.reset()
+
+
 })
 .catch(function (error) {
   console.log(error);
-});
+})
+event.target.reset();
 });
 }
 // waitlist()
+
 
 
 function contactForm(){

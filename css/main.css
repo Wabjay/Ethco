@@ -301,8 +301,6 @@ margin: 40px 0 0;
        /* Store END*/
 }
 @media (min-width:1280px) {
-
-    
     .illustration{
         max-width: 562px;
         height: 553.26px;
@@ -319,10 +317,15 @@ margin: 40px 0 0;
             height: 56px;
         }
         #storeowners .illustration{
-            max-width: 684px;
+            max-width: 584px;
             right: 29px;
         }
         .cards{
             grid-row-gap: 72px;
         }
+}
+@media (min-width: 1440px) {
+    #storeowners .illustration{
+        max-width: 684px;
+    }
 }

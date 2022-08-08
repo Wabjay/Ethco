@@ -53,6 +53,7 @@
         background: rgba(0, 0, 0, 0.25);
      }
 
+     
      .popup{
         position: relative;
         margin: 0 auto;
@@ -62,6 +63,29 @@
         height: 456px;
         text-align: center;
      }
+     #waitlist_popup.show{
+         display: block;
+     }
+
+     #waitlist_popup{
+        display: none;
+     }
+     .waitlist_popup {
+        position: absolute;
+        margin: 30px 24px;
+        background-color: var(--green-100);
+        border: 0.5px solid var(--green-400);
+        border-radius: 15px;
+        width: 250px;
+    }
+    .waitlist_popup p{
+        padding: 10px;
+        color: var(--green-600);
+        font-weight: 400;
+        letter-spacing: 0px;
+        font-size: 16px;
+        line-height: 22px;
+    }
      .popup img{
         position: absolute;
         right: 24px;
@@ -113,6 +137,7 @@
     }
     .waitlist_container{
         background-color: var(--green-600);
+        position: relative;
     }
      .container{
          padding: 16px;
@@ -269,6 +294,11 @@
         font-size: 40px;
         line-height: 50px;
      }
+     .waitlist_popup {
+       
+        margin: 100px;
+        width: 320px;
+    }
      }
      @media (min-width: 1024px) {
          .container{
@@ -293,6 +323,9 @@
             font-size: 48px;
             line-height: 58px;
          }
+         .waitlist_popup {
+            margin: 50px 350px;
+        }
          
      }
      @media (min-width: 1280px) {
