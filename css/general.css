@@ -64,11 +64,24 @@
         text-align: center;
      }
      #waitlist_popup.show{
-         display: block;
-     }
+         /* display: block; */
+         opacity: 1;
+         -webkit-animation: fadein 8s; /* Safari, Chrome and Opera > 12.1 */
+         -moz-animation: fadein 8s; /* Firefox < 16 */
+          -ms-animation: fadein 8s; /* Internet Explorer */
+           -o-animation: fadein 8s; /* Opera < 12.1 */
+              animation: fadein 8s;
+  }
+  
+  @keyframes fadein {
+      from { opacity: 1; }
+      to   { opacity: 0; }
+  }
+     
 
      #waitlist_popup{
-        display: none;
+        /* display: none; */
+        opacity: 0;
         position: fixed;
         top: 50px;
         left: 0;
