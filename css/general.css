@@ -69,23 +69,28 @@
 
      #waitlist_popup{
         display: none;
+        position: fixed;
+        top: 50px;
+        width: 100%;
      }
      .waitlist_popup {
-        position: absolute;
-        margin: 30px 24px;
-        background-color: var(--green-100);
-        border: 0.5px solid var(--green-400);
+        margin: 0 auto;
+        background-color: var(--green-50);
+        border: 0.5px solid var(--green-500);
         border-radius: 15px;
-        width: 250px;
+        width: fit-content;
     }
-    .waitlist_popup p{
-        padding: 10px;
-        color: var(--green-600);
-        font-weight: 400;
-        letter-spacing: 0px;
-        font-size: 16px;
-        line-height: 22px;
-    }
+        .waitlist_popup p {
+            padding: 16px 24px;
+            color: var(--green-600);
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 22px;
+            text-align: center;
+            width: 100%;
+            max-width: 280px;
+        }
      .popup img{
         position: absolute;
         right: 24px;
@@ -294,10 +299,8 @@
         font-size: 40px;
         line-height: 50px;
      }
-     .waitlist_popup {
-       
-        margin: 100px;
-        width: 320px;
+     .waitlist_popup p{
+        max-width: 375px;
     }
      }
      @media (min-width: 1024px) {
@@ -323,9 +326,11 @@
             font-size: 48px;
             line-height: 58px;
          }
-         .waitlist_popup {
-            margin: 50px 350px;
-        }
+        
+     .waitlist_popup p{
+        max-width: 593px;
+
+    }
          
      }
      @media (min-width: 1280px) {
@@ -334,6 +339,9 @@
          }
          section{
              padding: 100px 64px;
+         }
+         .waitlist_popup{
+            max-width: 640px;
          }
      }
      @media (min-width: 1440px) {
