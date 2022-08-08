@@ -64,7 +64,7 @@
         text-align: center;
      }
      #waitlist_popup.show{
-         /* display: block; */
+         display: block;
          opacity: 1;
          -webkit-animation: fadein 6s; /* Safari, Chrome and Opera > 12.1 */
          -moz-animation: fadein 6s; /* Firefox < 16 */
@@ -82,8 +82,7 @@
      
 
      #waitlist_popup{
-        /* display: none; */
-        opacity: 0;
+        display: none;
         position: fixed;
         top: 50px;
         left: 0;
