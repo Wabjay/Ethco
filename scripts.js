@@ -89,8 +89,6 @@ axios.post('https://api.airtable.com/v0/appJWS6wauaLZYypK/waitlist',
   waitlist_pop.classList.add("show")
   if(waitlist_pop.classList.contains("show")) // Check if the popup is shown
 setTimeout(() => waitlist_pop.classList.remove("show"), 5000);
-// thisForm.reset()
-
 
 })
 .catch(function (error) {
