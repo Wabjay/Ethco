@@ -31,7 +31,6 @@ var pageSwitch = document.querySelectorAll(".label");
 for (let i = 0; i < pageSwitch.length; i++) {
   pageSwitch[i].addEventListener("click", function () {
     if (pageSwitch[i].textContent === "For shoppers") {
-      // console.log(pageSwitch[i].innerHTML)
       console.log("first");
       store.classList.add("display");
       shop.classList.remove("display");
