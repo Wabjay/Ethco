@@ -63,7 +63,7 @@
         height: 456px;
         text-align: center;
      }
-     #waitlist_popup.show{
+     #waitlist_popup.show, #contact_popup.show {
          display: block;
          opacity: 1;
          -webkit-animation: fadein 6s; /* Safari, Chrome and Opera > 12.1 */
@@ -81,7 +81,7 @@
   }
      
 
-     #waitlist_popup{
+     #waitlist_popup, #contact_popup{
         display: none;
         position: fixed;
         top: 50px;
