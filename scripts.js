@@ -99,6 +99,7 @@ event.target.reset();
 // waitlist()
 
 
+const contact_popup = document.getElementById("contact_popup");
 
 function contactForm(){
   var thisForm = document.getElementById("contact_form");
@@ -120,10 +121,14 @@ function contactForm(){
   )
   .then((resp) => {
     console.log("success!")
+    contact_popup.classList.add("show")
+    if(contact_popup.classList.contains("show")) // Check if the popup is shown
+  setTimeout(() => contact_popup.classList.remove("show"), 5500);
   })
   .catch(function (error) {
     console.log(error);
   });
+  event.target.reset();
   });
   }
 // contactForm()
