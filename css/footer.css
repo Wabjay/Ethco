@@ -37,6 +37,9 @@ Footer p{
     .links li:nth-child(2){
         margin: 24px 0;
     }
+    .links li:nth-child(3){
+        margin-bottom: 24px;
+    }
 .links li a{
     text-decoration: none;
     color: inherit;
@@ -63,10 +66,13 @@ Footer .container,
 .links{
     margin: 0;
 }
-.links li:nth-child(2){
+.links li:nth-child(2),
+.links li:nth-child(3){
     margin: 0;
 }
-.links li, .links li:nth-child(2){
+.links li,
+.links li:nth-child(2),
+.links li:nth-child(3){
     margin-left: 80px;
 }
 }
