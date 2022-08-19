@@ -149,14 +149,14 @@
          width: 100%;
      }
 
-     .banner_container{
+     /* .banner_container{
         background-color: var(--green-50);
-     }
+     } */
      .shop_container{
         background-color: var(--yellow-50);
     }
     .waitlist_container{
-        background-color: var(--green-600);
+        background-color: var(--purple-600);
         position: relative;
     }
      .container{
@@ -193,7 +193,7 @@
          margin-top: 40px;
      }
      .btn, .btn_small, .btn_waitlist{
-         background-color: var(--green-400);
+         background-color: var(--crims-400);
          border: none;
          border-radius: 8px;
          color: var(--white);
@@ -204,6 +204,9 @@
          font-weight: 500;
          font-size: 16px;
          line-height: 22px;  
+     }
+     .btn:hover, .btn_small:hover, .btn_waitlist:hover{
+        background-color: var(--crims-500);
      }
      .btn_small{
          width: 179px;
@@ -243,8 +246,8 @@
 }
 
 .faq_title {
-    background-color:var(--green-50);
-    color: var(--grey-500);
+    background-color:var(--purple-50);
+    color: var(--purple-600);
     cursor: pointer;
     display: flex;
     font-family: 'avenir','Courier New', 'monospace';
@@ -261,7 +264,7 @@
   }
   
   .active, .faq_title:hover {
-    background-color:var(--green-50);
+    background-color:var(--purple-50);
   }
   
   .faq_title:after {
@@ -280,7 +283,7 @@
   
   .faq_text {
     padding: 0 24px;
-    background-color:var(--green-50);
+    background-color:var(--purple-50);
     color: var(--grey-400);
     max-height: 0;
     width: 100%;

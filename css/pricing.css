@@ -12,13 +12,13 @@
 }
 .store_offers{
     border: none;
-    background-color: var(--yellow-50);
+    background-color: var(--purple-50);
     margin: 40px 0;
     padding:16px;
 }
 .store_offers .side_header{
     margin-bottom: 16px;
-    color: var(--green-600);
+    color: var(--purple-600);
     letter-spacing: 0.48px;
 }
 
@@ -29,7 +29,7 @@
   font-weight: 800;
 }
 .store_offers .heading_big{
-    color: var(--green-500);
+    color: var(--purple-500);
 }
 .offer_list li {
   font-size: 16px;
@@ -40,18 +40,25 @@
     color: var(--grey-300);
 }
 .store_offers .btn{
+    background-color: var(--purple-400);
     margin-top: 16px;
     height: 48px;
     padding: 0;
 }
+.store_offers .btn:hover{
+    background-color: var(--purple-500);
+}
 .store_offers:nth-child(even){
-    background-color: var(--green-500);
+    background-color: var(--purple-500);
     color: var(--white);
     margin: 58px auto;
 }
 .store_offers:nth-child(even) .btn{
-    background-color: var(--white);
-    color: var(--green-600);
+    background-color: var(--crims-400);
+    color: var(--white);
+}
+.store_offers:nth-child(even) .btn:hover{
+    background-color: var(--crims-500);
 }
 .store_offers:nth-child(even) .heading_big{
     color: var(--yellow-300);

@@ -55,7 +55,7 @@
   letter-spacing: -2px;
   font-size: 40px;
   line-height: 50px;
-  color: var(--green-600);
+  color: var(--purple-600);
   
 }
 
@@ -68,7 +68,9 @@
   max-width: 771px;
   margin: 0 auto;
 }
-
+.shop_container .subtitle_header{
+  max-width: 900px;
+}
 @media (min-width: 576px) {
  
   .subtitle,

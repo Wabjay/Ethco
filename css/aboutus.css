@@ -1,0 +1,137 @@
+.content {
+        position: relative;
+        padding: 0;
+        
+    }
+.mission_container{
+    background-color: var(--purple-600);
+    position: relative;
+}
+.mission_container .split{
+    margin-top: 26px;
+}
+.content .shop_text,
+.content .heading_big,
+.split_values .heading_big {
+    max-width: 576px;
+    color: var(--grey-400);
+}
+
+.content .split > div{
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.split img {
+    margin-top: 40px;
+    max-width: 100%;
+    margin-bottom: -8px;
+}
+
+.waitlist {
+    background-color: inherit;
+}
+
+.heading_big,
+.shop_text {
+    color: var(--white);
+}
+
+.split_values .cards{
+    text-align: left;
+}
+.cards img {
+    width: 64px;
+    height: 64px;
+}
+
+.subscriber_container {
+    background-color: var(--purple-50);
+    position: relative;
+}
+
+.subscriber_container .subtitle_header {
+    color: var(--purple-600);
+    margin-bottom: 50px;
+}
+
+.subscriber_container input{
+    margin-bottom: 24px;
+}
+@media (min-width: 576px) {
+    
+.content .split > div{
+    padding-left: 24px;
+    padding-right: 24px;
+}
+}
+
+@media (min-width:1024px) {
+    .content {
+        position: relative;
+        padding-top: 0;
+        padding-bottom: 0;
+        height: 453px;
+    }
+    .content .split > div{
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+
+    .content .shop_text {
+        max-width: 40%;
+    }.split{
+        align-items: flex-start;
+    }
+    .content .split{
+        margin-top: 0;
+        align-items: center;
+        height: inherit;
+    }
+    .content .split img {
+        margin-top: 0;
+        top: 0;
+        position: absolute;
+        right: 0;
+        max-width: 567px;
+    }
+    .split_values{
+        display: grid;
+        grid-template-columns: 304px auto;
+    }
+    .cards {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        margin-top: 0;
+        grid-row-gap: 56px;
+    }
+    .cards .heading_medium{
+        margin-top: 16px;
+    }
+    
+.subscriber_container input{
+    margin-bottom: 0;
+}
+}
+
+@media (min-width:1280px) {
+    .content {
+        height: 596px;
+    }
+    .content .split > div{
+        padding-left: 64px;
+        padding-right: 64px;
+    }
+    .content .split img {
+        max-width: 773px;
+    }
+    .split_values{
+        grid-template-columns: 366px auto;
+    }
+}
+
+@media (min-width: 1440px){
+    .content .split > div {
+    padding: 0 144px;
+}
+}

@@ -6,19 +6,19 @@
 }
 
 .banner{
-    background-color: var(--green-50);
+    background-color: var(--purple-50);
 }
 .banner > div:first-child{
     margin-bottom: 40px;
 }
 .shop{
-    background-color: var(--yellow-50);
+    background-color: var(--crims-50);
 }
 .label, button{
     cursor: pointer;
 }
 .subtitle_header, .side_header{
-    color: var(--grey-600);
+    color: var(--purple-600);
 }
 #switch{
     display: flex;
@@ -28,16 +28,16 @@
     margin-bottom: 40px;
     width: 246px;
     height: 51.79px;
-    border: 1.61842px solid var(--green-500);
+    border: 1.61842px solid var(--crims-400);
     border-radius: 32px;
-    background-color: var(--green-100);
+    background-color: var(--purple-10);
     color: var(--grey-300);
 }
 #switch p{
     padding: 13px 15px;
 }
 #switch p.active{
-    background-color: var(--green-500);
+    background-color: var(--purple-600);
     border-radius: 24px;
     color: #FFFFFF;
 }
@@ -65,7 +65,7 @@
 }
 .cards .heading_medium{
     margin: 32px 0 8px;
-    color: var(--grey-600);
+    color: var(--purple-600);
 }
 .cards img{
     width: 193.85px;
@@ -75,7 +75,7 @@
 /* STOREOWNERS PAGE */
 
 
-#storeowners .illustration{
+/*#storeowners .illustration, */  .illustration{
     position: relative;
 }
 
@@ -124,7 +124,7 @@
     margin-top: 24px;
 }
 #storeowners .store_offers{
-height: 560px;
+height: 610px;
 margin: 40px 0 0;
 }
 
@@ -157,7 +157,7 @@ margin: 40px 0 0;
 /* WAITLIST */
 
 .waitlist{
-    background-color: var(--green-600);
+    background-color: var(--purple-600);
     color: var(--white) ;
     text-align: center;
 }
@@ -209,6 +209,9 @@ margin: 40px 0 0;
         font-size: 20px;
         line-height: 28px;
     }
+    #storeowners .store_offers{
+        height: 668px;
+    }
 }
 @media (min-width: 1024px) {
     .main{
@@ -222,7 +225,7 @@ margin: 40px 0 0;
     .banner > div:first-child{
         margin-bottom: 0;
     }
-    #storeowners .banner{ 
+    /*#storeowners .banner */ .banner{ 
         display: grid;
     column-gap: 20px;
     grid-template-columns: 1fr 1fr;
@@ -278,7 +281,7 @@ margin: 40px 0 0;
 
          /* Store */
 
-         #storeowners .illustration{
+         /*#storeowners .illustration, */  .illustration{
             position: absolute;
             top: 100px;
             max-width: 493px;
@@ -306,7 +309,7 @@ margin: 40px 0 0;
         height: 553.26px;
     }
     #storeowners .store_offers{
-        height: 604px;
+        height: 732px;
         padding: 40px;
         }
         #storeowners .content .split{
@@ -316,7 +319,7 @@ margin: 40px 0 0;
             margin-top: 0;
             height: 56px;
         }
-        #storeowners .illustration{
+        /*#storeowners .illustration, */  .illustration{
             max-width: 584px;
             right: 29px;
         }
@@ -325,7 +328,7 @@ margin: 40px 0 0;
         }
 }
 @media (min-width: 1440px) {
-    #storeowners .illustration{
+    /*#storeowners .illustration, */  .illustration{
         max-width: 684px;
     }
 }
