@@ -231,14 +231,14 @@
          outline: none;
      }
      input:focus {
-        border: 1px solid var(--green-400);
-  }
+            border: 1px solid var(--purple-400);
+        }
      input::placeholder{
          color: var(--grey-200);
      }
-     input:focus{
+     /* input:focus{
         border: 1px dash var(--grey-500);
-     }
+     } */
 /* FAQ STYLE */
 .faq .subtitle_header{
     margin-bottom: 50px;
