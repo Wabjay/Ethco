@@ -40,7 +40,7 @@ input{
     color: var(--grey-600);
 }
 input:focus {
-    border: 1px solid var(--green-400);
+    border: 1px solid var(--purple-400);
 }
 label{
     display: block;
@@ -59,7 +59,7 @@ textarea{
 
 }
 textarea:focus {
-    border: 1px solid var(--green-400);
+    border: 1px solid var(--purple-400);
 }
 textarea::placeholder{
     color: var(--grey-200);

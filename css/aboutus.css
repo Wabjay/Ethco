@@ -14,7 +14,7 @@
 .content .heading_big,
 .split_values .heading_big {
     max-width: 576px;
-    color: var(--grey-400);
+    color: var(--purple-400);
 }
 
 .content .split > div{

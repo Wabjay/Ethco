@@ -53,7 +53,7 @@ Navbar{
     font-weight: 500;
 }
 .display_toggle a:hover{
-    color: var(--green-400);
+    color: var(--purple-400);
     text-decoration: underline;
 }
 

@@ -149,11 +149,11 @@
          width: 100%;
      }
 
-     /* .banner_container{
-        background-color: var(--green-50);
-     } */
+     .banner_container{
+      background-color: var(--purple-50)
+     }
      .shop_container{
-        background-color: var(--yellow-50);
+      background-color: var(--crims-50);
     }
     .waitlist_container{
         background-color: var(--purple-600);

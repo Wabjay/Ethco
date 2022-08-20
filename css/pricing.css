@@ -89,6 +89,21 @@
     padding-top: 8px;
 }
 
+.extras{
+    font-style: normal;
+font-weight: 800;
+font-size: 16px;
+line-height: 22px;
+color: var(--green-600);
+margin-top: 40px;
+}
+.offer_list span{
+    font-weight: 800;
+font-size: 20px;
+line-height: 28px;
+letter-spacing: -1px;
+color: var(--grey-400);
+}
 
 .btn_small{
     margin-top: 0;

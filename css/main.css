@@ -5,15 +5,14 @@
     display: none;
 }
 
-.banner{
-    background-color: var(--purple-50);
+.banner,
+.shop{
+    background-color:inherit;
 }
 .banner > div:first-child{
     margin-bottom: 40px;
 }
-.shop{
-    background-color: var(--crims-50);
-}
+
 .label, button{
     cursor: pointer;
 }
