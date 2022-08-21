@@ -138,4 +138,14 @@
     .content .split > div {
     padding: 0 144px;
 }
+.content_container{
+    position: relative;
+    padding-right: 0;
+}
+.content {
+    position: initial;
+}
+.content .split img {
+    max-width: 50%;
+}
 }
