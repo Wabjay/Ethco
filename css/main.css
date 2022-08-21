@@ -156,6 +156,7 @@ margin: 40px 0 0;
 /* WAITLIST */
 
 .waitlist{
+    position: relative;
     background-color: var(--purple-600);
     color: var(--white) ;
     text-align: center;
