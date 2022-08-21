@@ -333,8 +333,9 @@
                  column-gap: 50px;
                  align-items: center;
          }
-         .reverse{
+         #shopper .split.reverse{
             flex-direction: row-reverse;
+            margin: 100px 0;
          }
          .popup{
             width: 564px;
@@ -348,6 +349,12 @@
      .waitlist_popup p{
         max-width: 593px;
 
+    }
+    #shopper .split {
+        margin-top: 50px;
+    }
+    #shopper .split img{
+        margin-top: 0;
     }
          
      }
