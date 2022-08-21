@@ -30,6 +30,7 @@
 
 .waitlist {
     background-color: inherit;
+    position: relative;
 }
 
 .heading_big,
@@ -49,7 +50,12 @@
     background-color: var(--purple-50);
     position: relative;
 }
-
+#subcribers_popup {
+    position: absolute;
+}
+#subcribers_popup .waitlist_popup p{
+    max-width: 250px;
+}
 .subscriber_container .subtitle_header {
     color: var(--purple-600);
     margin-bottom: 50px;
