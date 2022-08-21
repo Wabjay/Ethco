@@ -68,8 +68,8 @@
   max-width: 771px;
   margin: 0 auto;
 }
-.shop_container .subtitle_header{
-  max-width: 900px;
+#shopper .subtitle_header{
+  max-width: 571px;
 }
 @media (min-width: 576px) {
  
