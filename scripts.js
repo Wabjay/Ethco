@@ -60,11 +60,15 @@ close_popup.addEventListener("click", function () {
 
 
 
-const waitlist_pop = document.getElementById("waitlist_popup");
+
+
 
 
 // AIRTABLE SNIPPET FOR FORM UPDATE
+
+// waitlist()
 function waitlist(){
+  const waitlist_pop = document.getElementById("waitlist_popup");
 var thisForm = document.getElementById("waitlist_form");
 const headers_ = {
   // API KEY IN Bearer
@@ -96,12 +100,11 @@ setTimeout(() => waitlist_pop.classList.remove("show"), 5500);
 event.target.reset();
 });
 }
-// waitlist()
 
 
-const contact_popup = document.getElementById("contact_popup");
-
+// contactForm()
 function contactForm(){
+  const contact_popup = document.getElementById("contact_popup");
   var thisForm = document.getElementById("contact_form");
   const headers_ = {
        'Authorization': 'Bearer keyAs1krG80fTzo0c',
@@ -131,4 +134,37 @@ function contactForm(){
   event.target.reset();
   });
   }
-// contactForm()
+
+  // subscribers()
+  function subscribe(){
+    const subcribers_pop = document.getElementById("subcribers_popup");
+    var thisForm = document.getElementById("subscribe_form");
+    const headers_ = {
+      // API KEY IN Bearer
+         'Authorization': 'Bearer keyAs1krG80fTzo0c',
+         'Content-Type': 'application/json'
+    };
+    // When the form is submitted...
+    thisForm.addEventListener("submit", function(event) {
+       event.preventDefault();
+    // POST the data
+    axios.post('https://api.airtable.com/v0/appJWS6wauaLZYypK/subscribers',
+    {
+       "fields": {
+        "Subscribers": document.getElementById("subscribe_email").value,
+    }
+    }, {headers: headers_}
+    )
+    .then((resp) => {
+      console.log("success!")
+      subcribers_pop.classList.add("show")
+      if(subcribers_pop.classList.contains("show")) // Check if the popup is shown
+    setTimeout(() => subcribers_pop.classList.remove("show"), 5500);
+    
+    })
+    .catch(function (error) {
+      console.log(error);
+    })
+    event.target.reset();
+    });
+    }
