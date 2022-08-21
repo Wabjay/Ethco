@@ -58,6 +58,9 @@
 .subscriber_container input{
     margin-bottom: 24px;
 }
+.paragraph_small, .content .shop_text{
+    color: var(--grey-400)
+}
 
 @media (min-width: 576px) {
     
