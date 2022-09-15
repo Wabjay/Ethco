@@ -268,7 +268,7 @@
   }
   
   .faq_title:after {
-    content: url(../images/icon+.svg);
+    content: url(../images/Icon+.svg);
     color: var(--grey-400);
     font-weight: bold;
     width: 24px;
@@ -278,7 +278,7 @@
   }
   
   .faq_title.active:after {
-    content:  url(../images/icon-.svg);;
+    content:  url(../images/Icon-.svg);;
   }
   
   .faq_text {
